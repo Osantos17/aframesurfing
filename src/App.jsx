@@ -1,0 +1,93 @@
+import "react";
+
+const LandingPage = () => {
+  return (
+    <div className="min-h-screen bg-gray-900">
+      {/* Header */}
+      <header className=" text-white py-4">
+        <div className="container mx-auto text-center">
+          <img 
+            src="/assets/WhiteLogo.png" 
+            className="my-4 mx-auto w-28 h-28" 
+            alt="White Logo"
+          />
+          <p className="text-lg mt-2">Accurate surf forecasts tailored to your location.</p>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="container mx-auto mt-4 px-4">
+        {/* App Info Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl text-white font-bold mb-4">About</h2>
+          <p className='text-white'>
+            A-Frame’s goal is to provide the easiest-to-use surf forecast app. Our 7-day vertical forecast format makes it simple to scroll through and view your favorite surf locations, so you can spend more time planning your next paddle out and less time clicking through multiple pages. We prioritize your privacy and do not collect or store any personal information.
+          </p>
+        </section>
+
+        {/* Privacy Policy Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl text-white font-bold mb-4">Privacy Policy</h2>
+          <p className='text-white'>
+            <strong>A-Frame</strong> does not collect, store, or share any personal
+            information. The app only accesses your current location to provide accurate surf
+            forecasts based on your location. This data is processed on your device and is not
+            shared with third parties.
+          </p>
+          <p className="mt-4 text-white">
+            For any questions, contact us at <a href="mailto:Aframesurfing@gmail.com" className="text-blue-500 underline">Aframesurfing@gmail.com</a>.
+          </p>
+        </section>
+
+        {/* Disclaimer Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl text-white font-bold mb-4">Disclaimer</h2>
+          <p className="text-white">
+            The surf and marine forecasts provided by A-Frame are for informational purposes only
+            and should not be relied upon as a sole source for making decisions regarding ocean and
+            surf conditions. Weather and ocean conditions can change rapidly and unexpectedly.
+          </p>
+          <p className="text-white mt-2">
+            Users assume all risks associated with surfing or entering the ocean. A-Frame and its
+            developers are not responsible for any injury, loss, or damage resulting from the use of
+            this app or reliance on its information.
+          </p>
+          <p className="text-white mt-2">
+            Always exercise caution and consult official sources, local authorities, or lifeguards
+            before entering the water.
+          </p>
+        </section>
+
+        <div className="flex flex-row justify-between mt-6 mx-12">
+          <img 
+            src="/assets/map.png" 
+            className="w-40" 
+            alt="map"
+          />
+          <img 
+            src="/assets/local.png" 
+            className="w-40" 
+            alt="local"
+          />
+          <img 
+            src="/assets/forecast.png" 
+            className="w-40" 
+            alt="forecast"
+          />
+          <img 
+            src="/assets/about.png" 
+            className="w-40" 
+            alt="about"
+          />
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-gray-200 text-center py-4 mt-8">
+        <p>&copy; {new Date().getFullYear()} A-Frame. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+};
+
+export default LandingPage;
