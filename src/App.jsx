@@ -26,7 +26,7 @@ const LandingPage = () => {
         </section>
 
         {/* Privacy Policy Section */}
-        <section>
+        <section className="mb-12">
           <h2 className="text-2xl text-white font-bold mb-4">Privacy Policy</h2>
           <p className='text-white'>
             <strong>A-Frame</strong> does not collect, store, or share any personal
@@ -38,6 +38,26 @@ const LandingPage = () => {
             For any questions, contact us at <a href="mailto:Aframesurfing@gmail.com" className="text-blue-500 underline">Aframesurfing@gmail.com</a>.
           </p>
         </section>
+
+        {/* Disclaimer Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl text-white font-bold mb-4">Disclaimer</h2>
+          <p className="text-white">
+            The surf and marine forecasts provided by A-Frame are for informational purposes only
+            and should not be relied upon as a sole source for making decisions regarding ocean and
+            surf conditions. Weather and ocean conditions can change rapidly and unexpectedly.
+          </p>
+          <p className="text-white mt-2">
+            Users assume all risks associated with surfing or entering the ocean. A-Frame and its
+            developers are not responsible for any injury, loss, or damage resulting from the use of
+            this app or reliance on its information.
+          </p>
+          <p className="text-white mt-2">
+            Always exercise caution and consult official sources, local authorities, or lifeguards
+            before entering the water.
+          </p>
+        </section>
+
         <div className="flex flex-row justify-between mt-6 mx-12">
           <img 
             src="/assets/map.png" 
