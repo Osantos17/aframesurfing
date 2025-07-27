@@ -7,8 +7,8 @@ const LandingPage = () => {
       <header className=" text-white py-4">
         <div className="container mx-auto text-center">
           <img 
-            src="/assets/WhiteLogo.png" 
-            className="my-4 mx-auto w-28 h-28" 
+            src="/assets/WhiteLogo.png"
+            className="my-4 mx-auto w-32 h-32" 
             alt="White Logo"
           />
           <p className="text-lg mt-2">Accurate surf forecasts tailored to your location.</p>
