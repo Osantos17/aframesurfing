@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "echo 'This is a static site—no server required!' && exit 0",
     "lint": "eslint .",
     "preview": "vite preview"
   },
