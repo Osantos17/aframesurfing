@@ -7,14 +7,14 @@ const Download = () => {
         <div>
           <img 
             src="/assets/WhiteLogo.png"
-            className="my-4 mx-auto px-4" 
+            className="my-4 mx-auto px-12" 
             alt="White Logo"
           />
           <p className="text-zinc-400 mt-6 text-xl text-center">
             - 7-DAY FREE FORECAST -
           </p>
         </div>
-        <div className="downloads mt-16 pb-10">
+        <div className="downloads mt-12 pb-10">
           <div className="ios">
             <a
               href="https://apps.apple.com/us/app/a-frame-surf-forecast/id6741837362"
