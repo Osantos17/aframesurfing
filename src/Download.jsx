@@ -3,7 +3,7 @@ import "react";
 const Download = () => {
   return (
     <div className="min-h-screen bg-gray-900">
-      <div className="mx-auto pt-8">
+      <div className="mx-auto pt-4">
         <div>
           <img 
             src="/assets/WhiteLogo.png"
