@@ -10,11 +10,16 @@ const Download = () => {
             className="my-4 mx-auto px-12" 
             alt="White Logo"
           />
-          <p className="text-zinc-400 mt-6 text-xl text-center">
-            - 7-DAY FREE FORECAST -
-          </p>
+          <div>
+            <p className="text-zinc-400 mt-6 text-xl md:text-3xl text-center">
+              FREE 
+            </p>
+            <p className="text-zinc-400 mt-1 text-xl md:text-3xl text-center">
+              - 15-DAY FORECAST -
+            </p>
+          </div>
         </div>
-        <div className="downloads mt-12 pb-10">
+        <div className="downloads mt-6 pb-10">
           <div className="ios">
             <a
               href="https://apps.apple.com/us/app/a-frame-surf-forecast/id6741837362"
@@ -28,7 +33,7 @@ const Download = () => {
               />
             </a>
           </div>
-          <div className="google pt-4">
+          <div className="google pt-1">
             <a
               href="https://play.google.com/store/apps/details?id=com.aframe.AFrameFontEnd"
               target="_blank"
