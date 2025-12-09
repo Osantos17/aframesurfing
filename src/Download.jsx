@@ -29,11 +29,17 @@ const Download = () => {
             </a>
           </div>
           <div className="google pt-4">
-            <img 
-              src="/assets/GooglePlay.webp"
-              className="my-4 px-12 md:px-20 xl:px-32"
-              alt="Get it on Google Play"
-            />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.aframe.AFrameFontEnd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img 
+                src="/assets/GooglePlay.webp"
+                className="my-4 px-12 md:px-20 xl:px-32"
+                alt="Get it on Google Play"
+              />
+            </a>
           </div>
         </div>
       </div>
